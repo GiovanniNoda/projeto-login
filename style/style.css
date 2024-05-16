@@ -23,12 +23,12 @@ html {
     top: 50%;
     left: 50%;
     overflow: hidden;
-    transform: translate(-50%, -50%);
     background-color: white;
     width: 250px;
     height: 515px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.451);
+    transform: translate(-50%, -50%);
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
 }
@@ -48,11 +48,16 @@ html {
 
 .divinput {
     background-color: var(--cor2);
+    border: 2px solid var(--cor2);
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
+}
+
+.campo:focus {
+    background-color: white;
 }
 
 label {
@@ -60,8 +65,10 @@ label {
 }
 
 .icon {
-    color: black;
-    font-size: x-large;
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
 }
 
 #formulario h1 {
@@ -71,6 +78,17 @@ label {
 
 #formulario p {
     font-size: 0.8em;
+}
+
+.campo {
+    background-color: #94cfcd;
+    font-size: 1em;
+    width: calc(100% - 46.2px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-7px);
 }
 
 #entrar {
