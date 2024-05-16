@@ -15,13 +15,13 @@
     }
 
     #imagem {
-        float: left;
+        float: right;
         width: 30%;
         height: 100%;
     }
 
     #formulario {
-        float: right;
+        float: left;
         width: 70%;
     }
 }
@@ -30,19 +30,27 @@
     html {
         background-image: linear-gradient(180deg, var(--cor2), var(--cor1));
        }
-       
+
     #login {
         width: 990px;
     }
 
     #imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     #formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    #formulario p {
+        font-size: 1.2em;
+    }
+    
+    #formulario h1 {
+        font-size: 2em;
     }
 }
